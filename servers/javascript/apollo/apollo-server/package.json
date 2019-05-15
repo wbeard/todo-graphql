@@ -1,0 +1,31 @@
+{
+  "name": "@todo-graphql/apollo-server",
+  "version": "1.0.0",
+  "description": "An apollo-server implementation of todo-graphql.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbeard/todo-graphql.git"
+  },
+  "keywords": [
+    "todo-graphql",
+    "graphql",
+    "server"
+  ],
+  "author": "William Beard <disenno@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbeard/todo-graphql/issues"
+  },
+  "homepage": "https://github.com/wbeard/todo-graphql#readme",
+  "dependencies": {
+    "apollo-server": "^2.5.0",
+    "graphql": "^14.3.0",
+    "node-uuid": "^1.4.8",
+    "nodemon": "^1.19.0"
+  }
+}
